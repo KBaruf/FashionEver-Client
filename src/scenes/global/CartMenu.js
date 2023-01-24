@@ -1,7 +1,7 @@
 import React from 'react';
 
-const cartMenu = () => {
+const CartMenu = () => {
   return <div>Cart Menu</div>;
 };
 
-export default cartMenu;
+export default CartMenu;
