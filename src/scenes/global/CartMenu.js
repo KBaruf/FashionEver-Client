@@ -9,6 +9,7 @@ import { shades } from '../../theme';
 import { decreaseCount, increaseCount, removeFromCart, setisCartOpen } from '../../state';
 import { useNavigate } from 'react-router-dom';
 
+<<<<<<< HEAD:src/scenes/global/cartMenu.js
 const FlexBox = styled(Box)`
   display: flex;
   justify-content: space-between;
@@ -102,6 +103,10 @@ const CartMenu = () => {
       </Box>
     </Box>
   );
+=======
+const CartMenu = () => {
+  return <div>Cart Menu</div>;
+>>>>>>> e907e504bdfc8c9829660764c7218610f4b09d72:src/scenes/global/CartMenu.js
 };
 
 export default CartMenu;
